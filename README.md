@@ -59,9 +59,18 @@ Eval model
 python train_net.py --eval-only --num-gpus 1 --config-file configs/HICO-DET/interaction_R_101_FPN_pos_atl.yaml  OUTPUT_DIR ./output/HICO_interaction_base_101_fine1_gpu2_atl12 MODEL.WEIGHTS ./output/HICO_interaction_base_101_fine1_gpu2_atl12/model_00239999.pth
 ```
 
-## Citing
-If you use this code in your research or wish to refer to the baseline results published, please use the following BibTeX.
+### Citations
+If you find this series of work are useful for you, please consider citing:
+
 ```
+@inproceedings{hou2021fcl,
+  title={Detecting Human-Object Interaction via Fabricated Compositional Learning},
+  author={Hou, Zhi and Baosheng, Yu and Qiao, Yu and Peng, Xiaojiang and Tao, Dacheng},
+  booktitle={CVPR},
+  year={2021}
+}
+```
+
 ```
 @inproceedings{hou2021vcl,
   title={Visual Compositional Learning for Human-Object Interaction Detection},
@@ -78,7 +87,6 @@ If you use this code in your research or wish to refer to the baseline results p
   booktitle={CVPR},
   year={2021}
 }
-```
 ```
 
 ### Acknowledgements
