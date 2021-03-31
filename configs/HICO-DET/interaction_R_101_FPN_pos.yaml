@@ -1,0 +1,21 @@
+_BASE_: "../Base-HOIRCNN-FPN.yaml"
+MODEL:
+  WEIGHTS: "/public/data0/users/houzhi28/Code/zero_shot_hoi/output/model_final_f6e8b1.pkl"
+  BACKBONE:
+    NAME: "build_resnet_fpn_backbone"
+    FREEZE_AT: 3
+  RESNETS:
+    DEPTH: 101
+  HOI_ON: True
+  HOI_BOX_HEAD:
+    ACTION_CLS_WEIGHTS: [10., 128.]
+    ALLOW_PERSON_TO_PERSON: True
+SOLVER:
+  IMS_PER_BATCH: 1
+  BASE_LR: 0.005
+  STEPS: (160000, 240000)
+  MAX_ITER: 2800000
+  CHECKPOINT_PERIOD: 10000
+DATASETS:
+  TRAIN: ("hico-det_train", )
+  TEST: ("hico-det_test", )

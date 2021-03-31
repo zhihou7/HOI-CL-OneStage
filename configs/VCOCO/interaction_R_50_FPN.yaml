@@ -1,0 +1,21 @@
+_BASE_: "../Base-HOIRCNN-FPN.yaml"
+MODEL:
+  WEIGHTS: "/public/data0/users/houzhi28/Code/zero_shot_hoi/output/model_final_280758.pkl"
+  BACKBONE:
+    NAME: "build_resnet_fpn_backbone"
+    FREEZE_AT: 3
+  HOI_ON: True
+  HOI_BOX_HEAD:
+    ACTION_CLS_WEIGHTS: [10., 128.]
+    ALLOW_PERSON_TO_PERSON: True
+  ROI_HEADS:
+    NUM_ACTIONS: 26
+SOLVER:
+  IMS_PER_BATCH: 4
+  BASE_LR: 0.005
+  STEPS: (40000, 80000)
+  MAX_ITER: 100000
+  CHECKPOINT_PERIOD: 10000
+DATASETS:
+  TRAIN: ("vcoco_train", )
+  TEST: ("vcoco_test", )
