@@ -1,6 +1,6 @@
-### Affordance Transfer Learning for Human-Object Interaction Detection (CVPR2021)
+### Affordance Transfer Learning for Human-Object Interaction Detection (CVPR2021), Visual Compositional Learning for Human-Object Interaction Detection (ECCV2020)
 
-This is an implementation of ATL based on One-Stage HOI Detection.
+This is an implementation of ATL and VCL based on One-Stage HOI Detection.
 
 ## Getting Started
 
