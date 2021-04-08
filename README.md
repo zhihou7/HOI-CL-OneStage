@@ -24,15 +24,7 @@ This is an implementation of ATL and VCL based on One-Stage HOI Detection.
 
 ## Demo Inference with Pre-trained Model
 
-1. Download our pre-trained model on HICO-DET dataset or V-COCO dataset. *Note: HICO-DET dataset allows 116 (excluding "no_interaction") actions and V-COCO allows 25 actions*.
-
-    ```
-    cd demo
-    # Download pre-trained model on HICO-DET dataset
-    sh download_pretrained_hicodet.sh
-    # Or download pre-trained model on V-COCO dataset
-    sh download_pretrained_vcoco.sh
-    ```
+https://cloudstor.aarnet.edu.au/plus/s/NSkxIqfWMt9VydN
 
 ## Training a model and running inference
 
