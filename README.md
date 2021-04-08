@@ -25,11 +25,12 @@ This is an implementation of ATL and VCL based on One-Stage HOI Detection.
 ## Demo Inference with Pre-trained Model
 
 Object Detection Pretrained model (Here is the model from VCL): https://cloudstor.aarnet.edu.au/plus/s/NSkxIqfWMt9VydN
+
 ATL model: 
 
 ## Training a model and running inference
 
-Train Baseline
+Train Baseline (ATL)
 
 ```
 python train_net_atl.py --num-gpus 2 --config-file configs/HICO-DET/interaction_R_101_FPN_pos_atl.yaml MODEL.ROI_HEADS.OBJ_IMG_NUMS 2 SOLVER.IMS_PER_BATCH 4 OUTPUT_DIR ./output/HICO_interaction_base_101_fine1_gpu2_atl12 MODEL.ROI_HEADS.CL 0 MODEL.ROI_HEADS.CL_WEIGHT 0.25 MODEL.WEIGHTS output/model_0064999.pth
