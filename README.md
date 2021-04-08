@@ -26,7 +26,7 @@ This is an implementation of ATL and VCL based on One-Stage HOI Detection.
 
 Object Detection Pretrained model (Here is the model from VCL): https://cloudstor.aarnet.edu.au/plus/s/NSkxIqfWMt9VydN
 
-ATL model: 
+ATL model: https://drive.google.com/file/d/1qyA3KSiIvlsDgPP6Qc9ekbiI4IZmIsIw/view?usp=sharing
 
 ## Training a model and running inference
 
