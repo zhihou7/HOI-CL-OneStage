@@ -52,6 +52,11 @@ Eval model
 python train_net.py --eval-only --num-gpus 1 --config-file configs/HICO-DET/interaction_R_101_FPN_pos_atl.yaml  OUTPUT_DIR ./output/HICO_interaction_base_101_fine1_gpu2_atl12 MODEL.WEIGHTS ./output/HICO_interaction_base_101_fine1_gpu2_atl12/model_00239999.pth
 ```
 
+Results
+
+|Model|Full|Rare|Non-Rare|
+|ATL |23.81 | 17.43 | 25.72|
+ 
 ### Citations
 If you find this series of work are useful for you, please consider citing:
 
