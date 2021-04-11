@@ -22,6 +22,8 @@ This is an implementation of ATL and VCL based on One-Stage HOI Detection.
     - COCO's format annotations for HICO-DET and VCOCO dataset.
     - [Glove](https://nlp.stanford.edu/projects/glove/) semantic embeddings.
 
+4. COCO data for hico: https://drive.google.com/file/d/18BJO8sG8KU3cmSQxpOqcPOql7sXukvIj/view?usp=sharing
+
 ## Demo Inference with Pre-trained Model
 
 Object Detection Pretrained model (Here is the model from VCL): https://cloudstor.aarnet.edu.au/plus/s/NSkxIqfWMt9VydN
