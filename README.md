@@ -58,6 +58,7 @@ python train_net.py --eval-only --num-gpus 1 --config-file configs/HICO-DET/inte
 Results
 
 |Model|Full|Rare|Non-Rare|
+|:-|:-:|:-:|:-:|
 |ATL |23.81 | 17.43 | 25.72|
  
 ### Citations
